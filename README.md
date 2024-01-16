@@ -17,10 +17,15 @@ Gestion des Parcelles
  - Cruds: Ajout, modification et suppression de fermes.
  - Notation de la superficie de chaque parcelle.
 
-Gestion des Types de Plantes
+Gestion du Plantage
 
  - Ajout, modification et suppression de plantes.
  - Chronologie des plantations (avec la date de chaque plantation) .
+
+Gestion des types de plantes
+
+ - Ajout, modification et suppression des types de plantes.
+ - Attribution de types de plantes à des plantations.
 
 
 
@@ -49,3 +54,36 @@ Gestion des Types de Plantes
 # Serveur d'Application : 
 
  - GlassFish :Serveur d'application Java EE utilisé pour déployer et exécuter l'application. GlassFish offre un support complet pour les spécifications Java EE.
+
+
+# Installation de Docker :
+Installer Docker Desktop depuis de site officiel : 
+
+https://docs.docker.com/desktop/install/windows-install/
+
+# Utilisation:
+
+La version Docker de notre application permet une installation rapide et sans souci. Suivez ces étapes simples pour exécuter l'application dans un conteneur Docker :
+
+ 1) Clonez ce lien Github: 
+// lien github//
+
+ 2) Pour construire l'image Docker , runner cette commande :
+docker build -t gestion_ferme:tag .
+
+Cette commande utilise le fichier Dockerfile pour créer une image Docker qui inclut toutes les dépendances nécessaires pour exécuter votre application.
+
+ 3)Executez le conteneur Docker:
+docker run -p 8080:8080 gestion_ferme:tag
+
+ 4)Accédez à l'application :
+Ouvrir le navigateur web et tappez : http://localhost:8080 pour afficher l'application.
+
+
+
+
+# Docker Desktop:
+![5add033e-c849-4c3a-b26a-874ed4d143c5](https://github.com/Samia-Kouame/projet-Gestion-des-fermes/assets/147660832/a9abbee3-d880-4a7a-9c64-a846949fa460)
+
+
+
