@@ -74,7 +74,7 @@ docker build -t gestion_ferme:tag .
 Cette commande utilise le fichier Dockerfile pour créer une image Docker qui inclut toutes les dépendances nécessaires pour exécuter votre application.
 
  3)Executez le conteneur Docker:
-docker run -p 8080:8080 gestion_ferme:tag
+docker run -p 8082:8080 gestion_ferme:tag
 
  4)Accédez à l'application :
 Ouvrir le navigateur web et tappez : http://localhost:8080 pour afficher l'application.
@@ -86,4 +86,9 @@ Ouvrir le navigateur web et tappez : http://localhost:8080 pour afficher l'appli
 ![5add033e-c849-4c3a-b26a-874ed4d143c5](https://github.com/Samia-Kouame/projet-Gestion-des-fermes/assets/147660832/a9abbee3-d880-4a7a-9c64-a846949fa460)
 
 
+
+
+
+
+https://github.com/Samia-Kouame/projet-Gestion-des-fermes/assets/147660832/8ccbac5d-580f-4143-ab23-6f523b2b2db1
 
