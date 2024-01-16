@@ -66,7 +66,7 @@ https://docs.docker.com/desktop/install/windows-install/
 La version Docker de notre application permet une installation rapide et sans souci. Suivez ces étapes simples pour exécuter l'application dans un conteneur Docker :
 
  1) Clonez ce lien Github: 
-// lien github//
+[// lien github//](https://github.com/Samia-Kouame/projet-Gestion-des-fermes)
 
  2) Pour construire l'image Docker , runner cette commande :
 docker build -t gestion_ferme:tag .
